@@ -1,0 +1,141 @@
+{
+  "name": "app_main",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Oua5TacEnD6Fo7R2fLFMwh",
+    "node": "47:28",
+    "version": "4292585392",
+    "component-id": "b4e35daca648c82018f089b58b3e960f9937d851"
+  },
+  "default": "App_Main",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "https://lottiefiles.com/animations/santa-and-reindeer-UQJYuDtch6"
+      },
+      {
+        "type": "text",
+        "id": "SANTA WILL ARRIVE IN:"
+      },
+      {
+        "type": "vector",
+        "id": "Barra"
+      }
+    ],
+    "modes": {
+      "App_Main": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "https://lottiefiles.com/animations/santa-and-reindeer-UQJYuDtch6",
+              "SANTA WILL ARRIVE IN:",
+              "Barra"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09411764705882353"
+            }
+          },
+          {
+            "id": "https://lottiefiles.com/animations/santa-and-reindeer-UQJYuDtch6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "90.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "400.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "400.0"
+              }
+            },
+            "image-content": "https_lottiefiles_com_animations_santa_and_reindeer_uqjyu_dtch6.png",
+            "scale": "cover"
+          },
+          {
+            "id": "SANTA WILL ARRIVE IN:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-200.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "SANTA WILL ARRIVE IN:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.25",
+            "typeface": "Milonga"
+          },
+          {
+            "id": "Barra",
+            "border-radius": "18.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "230.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "342.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "vector-content": "barra.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "App_Main",
+      "size": {
+        "width": 411.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

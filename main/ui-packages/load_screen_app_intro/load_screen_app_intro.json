@@ -1,0 +1,141 @@
+{
+  "name": "load_screen_app_intro",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Oua5TacEnD6Fo7R2fLFMwh",
+    "node": "47:29",
+    "version": "4292585392",
+    "component-id": "a801abda8abd4a153d83d665b27d2a9d65a46c03"
+  },
+  "default": "LoadScreen_AppIntro",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "SANTA’S"
+      },
+      {
+        "type": "text",
+        "id": "COUNTER"
+      },
+      {
+        "type": "image",
+        "id": "https://lottiefiles.com/animations/santa-claus-Mtdk1reZ7K"
+      }
+    ],
+    "modes": {
+      "LoadScreen_AppIntro": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "SANTA’S",
+              "COUNTER",
+              "https://lottiefiles.com/animations/santa-claus-Mtdk1reZ7K"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09411764705882353"
+            }
+          },
+          {
+            "id": "SANTA’S",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "138.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "633.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "SANTA’S",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "48.0",
+            "line-height": "1.25",
+            "typeface": "Milonga"
+          },
+          {
+            "id": "COUNTER",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "99.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "693.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "COUNTER",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "48.0",
+            "line-height": "1.25",
+            "typeface": "Milonga"
+          },
+          {
+            "id": "https://lottiefiles.com/animations/santa-claus-Mtdk1reZ7K",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "174.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "500.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "500.0"
+              }
+            },
+            "image-content": "https_lottiefiles_com_animations_santa_claus_mtdk1re_z7k.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "LoadScreen_AppIntro",
+      "size": {
+        "width": 411.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

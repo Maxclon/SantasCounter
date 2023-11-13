@@ -1,0 +1,141 @@
+{
+  "name": "load_screen_maxclon",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Oua5TacEnD6Fo7R2fLFMwh",
+    "node": "47:30",
+    "version": "4292585392",
+    "component-id": "ae08192627a427c7c540bd0a94342e7ce5ff36ad"
+  },
+  "default": "LoadScreen_Maxclon",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Powered by"
+      },
+      {
+        "type": "text",
+        "id": "MAXCLON"
+      },
+      {
+        "type": "image",
+        "id": "https://lottiefiles.com/animations/bar-loading-nBwVcCGVF8"
+      }
+    ],
+    "modes": {
+      "LoadScreen_Maxclon": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Powered by",
+              "MAXCLON",
+              "https://lottiefiles.com/animations/bar-loading-nBwVcCGVF8"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09411764705882353"
+            }
+          },
+          {
+            "id": "Powered by",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "150.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "719.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Powered by",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "13.0",
+            "line-height": "1.260999973003681",
+            "typeface": "Offside"
+          },
+          {
+            "id": "MAXCLON",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "150.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "735.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MAXCLON",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2609999974568684",
+            "typeface": "Offside"
+          },
+          {
+            "id": "https://lottiefiles.com/animations/bar-loading-nBwVcCGVF8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "152.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "767.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "109.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "3.0"
+              }
+            },
+            "image-content": "https_lottiefiles_com_animations_bar_loading_n_bw_vc_cgvf8.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "LoadScreen_Maxclon",
+      "size": {
+        "width": 411.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
